@@ -1,0 +1,10 @@
+{
+    "require": {
+        "php": "^7.4",
+        "simple-as-fuck/orm": "^0.1.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "phpstan/phpstan": "^0.12.59"
+    }
+}
