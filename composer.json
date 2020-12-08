@@ -3,10 +3,16 @@
     "description": "Laravel integration for https://github.com/simple-as-fuck/orm",
     "require": {
         "php": "^7.4",
-        "simple-as-fuck/orm": "^0.1.0"
+        "simple-as-fuck/orm": "^0.1.0",
+        "illuminate/contracts": "^7.0|^8.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
         "phpstan/phpstan": "^0.12.59"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleAsFuck\\LaravelOrm\\": "src/"
+        }
     }
 }
