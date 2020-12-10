@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace SimpleAsFuck\LaravelOrm\Config;
+namespace SimpleAsFuck\LaravelOrm\Config\Laravel;
 
 use Illuminate\Contracts\Config\Repository;
 use SimpleAsFuck\Orm\Config\Abstracts\Config;
 
-final class LaravelAdapter extends Config
+final class Adapter extends Config
 {
     private Repository $repository;
 
