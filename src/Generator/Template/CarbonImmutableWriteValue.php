@@ -1,0 +1,1 @@
+new \Carbon\CarbonImmutable(<?php /** @var string $variableName */ echo $variableName ?>)

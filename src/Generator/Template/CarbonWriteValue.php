@@ -1,0 +1,1 @@
+new \Carbon\Carbon(<?php /** @var string $variableName */ echo $variableName ?>)
