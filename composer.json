@@ -17,5 +17,12 @@
         "psr-4": {
             "SimpleAsFuck\\LaravelOrm\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SimpleAsFuck\\LaravelOrm\\Provider\\Orm"
+            ]
+        }
     }
 }
